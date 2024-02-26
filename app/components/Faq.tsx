@@ -62,7 +62,6 @@ export function Faq() {
         <Accordion.Root
           collapsible
           type='single'
-          defaultValue='item-1'
           className='flex flex-col gap-y-4'
         >
           {items.map((item, index) => (
